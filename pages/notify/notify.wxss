@@ -12,6 +12,7 @@
   box-shadow: 0 2px 2px #bebebe;
   margin: 0 0 8rpx 0;
   position: fixed;
+  z-index: 9999;
 }
 .notify-topTab{
   width: 750rpx;
@@ -42,4 +43,27 @@
 .unread image{
   width: 40rpx;
   height: 40rpx
+}
+.avatar image{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 90rpx;
+  padding: 0 20rpx 0 0
+}
+
+.notify-items{
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 5px #eee
+}
+.notify-source{
+  font-size: 24rpx;
+  color: #bebebe
+}
+.notify-title{
+  font-size: 26rpx;
+  color: #bebebe
 }

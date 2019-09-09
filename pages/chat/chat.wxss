@@ -1,1 +1,23 @@
 /* pages/chat/chat.wxss */
+.chat{
+  border-bottom: 1px solid #eee;
+  padding: 20rpx
+}
+.chat-wrp{
+  display: flex;
+  flex-direction: row row-reverse;
+  justify-content: space-between;
+}
+.avatar image{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 90rpx;
+  margin: 0 20rpx 0 0
+}
+.chat-name{
+  font-size: 26rpx
+}
+.chat-content{
+  font-size: 24rpx;
+  color:#5b5b5b
+}

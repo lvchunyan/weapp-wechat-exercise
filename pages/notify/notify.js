@@ -6,7 +6,44 @@ Page({
    */
   data: {
     navTab: ["通知", "赞与感谢", "关注"],
-    currentNavtab: 0
+    currentNavtab: 0,
+    currentContent:[
+      {
+        src:'../../images/icon1.jpeg',
+        title:'Rebecca  回答了问题',
+        content:'C#如何在不覆盖原有文件的情况下直接修改某一部分的内容？'
+      },
+      {
+        src: '../../images/icon1.jpeg',
+        title: 'Rebecca  回答了问题',
+        content: 'C#如何在不覆盖原有文件的情况下直接修改某一部分的内容？'
+      },
+      {
+        src: '../../images/icon1.jpeg',
+        title: 'Rebecca  回答了问题',
+        content: 'C#如何在不覆盖原有文件的情况下直接修改某一部分的内容？'
+      },
+      {
+        src: '../../images/icon1.jpeg',
+        title: 'Rebecca  回答了问题',
+        content: 'C#如何在不覆盖原有文件的情况下直接修改某一部分的内容？'
+      },
+      {
+        src: '../../images/icon1.jpeg',
+        title: 'Rebecca  回答了问题',
+        content: 'C#如何在不覆盖原有文件的情况下直接修改某一部分的内容？'
+      },
+      {
+        src: '../../images/icon1.jpeg',
+        title: 'Rebecca  回答了问题',
+        content: 'C#如何在不覆盖原有文件的情况下直接修改某一部分的内容？'
+      },
+      {
+        src: '../../images/icon1.jpeg',
+        title: 'Rebecca  回答了问题',
+        content: 'C#如何在不覆盖原有文件的情况下直接修改某一部分的内容？'
+      },
+    ]
   },
   switchTab: function (e) {
     this.setData({

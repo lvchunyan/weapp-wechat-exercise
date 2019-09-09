@@ -12,6 +12,9 @@
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: stretch;
+  margin: 0 0 8rpx 0;
+  position: fixed;
+  z-index: 9999;
 }
 
 .top-click {

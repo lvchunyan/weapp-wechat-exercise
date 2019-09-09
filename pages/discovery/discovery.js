@@ -32,6 +32,18 @@ Page({
   onLoad: function(options) {
     this.refresh();
   },
+  upper: function () {
+    wx.showNavigationBarLoading()
+    this.refresh();
+    console.log("upper");
+    setTimeout(function () { wx.hideNavigationBarLoading(); wx.stopPullDownRefresh(); }, 2000);
+  },
+  lower: function (e) {
+    wx.showNavigationBarLoading();
+    var that = this;
+    setTimeout(function () { wx.hideNavigationBarLoading(); that.nextLoad(); }, 1000);
+    console.log("lower")
+  },
   //使用本地 fake 数据实现刷新效果
   refresh: function() {
     var feed = util.getDiscovery();
@@ -40,7 +52,16 @@ Page({
       feed: feed_data,
       feed_length: feed_data.length
     });
-    console.log(11)
+  },
+  //使用本地 fake 数据实现继续加载效果
+  nextLoad: function () {
+    var next = util.discoveryNext();
+    console.log("continueload");
+    var next_data = next.data;
+    this.setData({
+      feed: this.data.feed.concat(next_data),
+      feed_length: this.data.feed_length + next_data.length
+    });
   },
   bindQueTap: function() {
     wx: wx.navigateTo({
