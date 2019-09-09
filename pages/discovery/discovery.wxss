@@ -1,1 +1,93 @@
 /* pages/discovery/discovery.wxss */
+
+.discovery-tab {
+  width: 750rpx;
+  height: 100rpx;
+  background: #298de5;
+  color: #8ccefd;
+  font-size: 28rpx;
+  line-height: 100rpx;
+  box-shadow: 0 2px 2px #bebebe;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.top-click {
+  width: 750rpx;
+  height: 100rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  margin: 0 0 8rpx 0;
+}
+
+.top-click.active {
+  color: #fff;
+  border-bottom: solid 3px #fff;
+}
+
+.ctnt0 {
+  margin-top: 8rpx;
+}
+
+.activity {
+  width: 750rpx;
+  height: 375rpx;
+}
+
+.activity image {
+  width: 750rpx;
+  height: 375rpx;
+}
+
+.avatar image {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 40rpx;
+}
+
+.feed-items {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 5px #eee;
+  width: 690rpx;
+  padding: 30rpx 30rpx 20rpx;
+  margin: 7rpx 0 6rpx 0
+}
+
+.feed-wrp {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.feed-source {
+  display: flex;
+}
+
+.feed-source text {
+  margin-left: 10rpx;
+  color: #bebebe;
+  font-size: 28rpx
+}
+
+.feed-bodys {
+  font-size: 26rpx;
+  color: #5b5b5b;
+}
+
+.feed-footer {
+  color: #a0acac;
+  font-size: 24rpx;
+}
+
+.feed-footer view {
+  padding: 0 10rpx 0 0;
+}
+
+.feed-footer .dot ::after {
+  content: "•";
+}

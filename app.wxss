@@ -6,8 +6,7 @@
   align-items: center;
   justify-content: space-between;
   /*padding: 200rpx 0;*/
-  box-sizing: border-box;
-  background: #F0F4F3;
+  box-sizing: border-box
 }
 
 .container.withtab{

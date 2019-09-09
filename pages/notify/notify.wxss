@@ -1,1 +1,45 @@
 /* pages/notify/notify.wxss */
+.notify-tab{
+  width: 750rpx;
+  height: 100rpx;
+  background: #298de5;
+  color: #8ccefd;
+  line-height: 100rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  /* align-items: stretch; */
+  box-shadow: 0 2px 2px #bebebe;
+  margin: 0 0 8rpx 0;
+  position: fixed;
+}
+.notify-topTab{
+  width: 750rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.notify-active{
+  color: #fff;
+  border-bottom: 2px solid #fff
+}
+.notify-withtab{
+  padding-top: 105rpx
+}
+.unread{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background: #F0F4F3;
+  height: 60rpx;
+  padding: 20rpx 40rpx
+}
+.unread text{
+  font-size: 26rpx;
+  color: #a0acac
+  
+}
+.unread image{
+  width: 40rpx;
+  height: 40rpx
+}
