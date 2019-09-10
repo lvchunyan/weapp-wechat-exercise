@@ -1,1 +1,52 @@
 /* pages/more/more.wxss */
+.more-top{
+  height: 150rpx;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0px 4rpx 10rpx #ebebeb,0px -4rpx 10rpx #ebebeb;
+  margin: 5rpx 0 0 0 
+}
+.more-wrp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+.more-name{
+  font-size: 32rpx;
+  color: #bababa;
+  line-height: 60rpx
+}
+.more-page{
+  font-size: 30rpx;
+  color: #bababa;
+  line-height: 30rpx
+}
+.my-more{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start
+}
+.avatar image{
+  width: 60rpx;
+  height: 60rpx;
+  flex: 1;
+  padding: 20rpx 0
+}
+.more-title{
+  flex: 5;
+  border-bottom: 1rpx solid #eee;
+  padding: 30rpx 15rpx;
+  color: #6d6d6d;
+  font-size: 34rpx
+}
+.more-titles{
+  flex: 5;
+  padding: 30rpx 15rpx;
+  color: #6d6d6d;
+  font-size: 34rpx
+}
+.my{
+  border-bottom: 1rpx solid #eee;
+  padding: 20rpx 15rpx
+}

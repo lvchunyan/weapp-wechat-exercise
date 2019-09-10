@@ -1,2 +1,19 @@
 <!--pages/more/more.wxml-->
-<text>pages/more/more.wxml</text>
+<view>
+  <view class="more-top more-wrp">
+    <text class='more-name'>昵称</text>
+    <text class='more-page'>查看或编辑个人主页</text>
+  </view>
+  <view class='my'>
+   <view wx:for="{{moreContent}}">
+    <view class='my-more'>
+      <view class='avatar'>
+        <image src="{{item.src}}"></image>
+      </view>
+      <view class="{{index == moreContent.length - 1 ? 'more-titles' : 'more-title'}}">
+        <text>{{item.title}}</text>
+      </view>
+    </view>
+  </view> 
+  </view>
+</view>

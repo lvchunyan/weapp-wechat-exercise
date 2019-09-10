@@ -5,7 +5,36 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    moreContent:[
+      {
+        src:'../../images/eye.png',
+        title:'我的关注'
+      },
+      {
+        src: '../../images/star.png',
+        title: '我的收藏'
+      },
+      {
+        src: '../../images/draft.png',
+        title: '我的草稿'
+      },
+      {
+        src: '../../images/recent.png',
+        title: '最近浏览'
+      },
+      {
+        src: '../../images/book.png',
+        title: '我的书架'
+      },
+      {
+        src: '../../images/live.png',
+        title: '我的 Live'
+      },
+      {
+        src: '../../images/zhi.png',
+        title: '我的值乎'
+      },
+    ]
   },
 
   /**
